@@ -1,0 +1,5 @@
+# _ 代表私有,别人不应该使用
+def _say(data):
+  print(data)
+
+
