@@ -1,3 +1,5 @@
+#!/usr/bin/env python3
+# -*- coding: utf-8 -*-
 class Student(object):
   # 规定该类只准拥有那些属性
   # 定义的属性仅对当前类实例起作用，对继承的子类是不起作用的

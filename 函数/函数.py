@@ -1,3 +1,5 @@
+#!/usr/bin/env python3
+# -*- coding: utf-8 -*-
 from 模块.utils import _say
 
 print(abs(-3))

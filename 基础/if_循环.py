@@ -1,3 +1,5 @@
+#!/usr/bin/env python3
+# -*- coding: utf-8 -*-
 # 默认输入为字符串 需要int()方法转
 age = int(input('请输入'))
 if age >= 20:

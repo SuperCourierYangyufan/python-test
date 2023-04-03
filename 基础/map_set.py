@@ -1,3 +1,5 @@
+#!/usr/bin/env python3
+# -*- coding: utf-8 -*-
 map = {'a': 1, 'b': 2, 'c': 3}
 print(map['a'])
 

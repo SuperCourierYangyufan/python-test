@@ -1,3 +1,5 @@
+#!/usr/bin/env python3
+# -*- coding: utf-8 -*-
 from Month import month,Weekday
 class Base(object):
   def sayHello(self):
