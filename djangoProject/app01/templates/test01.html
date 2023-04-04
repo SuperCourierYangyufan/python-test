@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>测试</title>
+</head>
+<body>
+<H1>{{ title }}</H1>
+<div>{{ names.0 }}</div>
+<div>{{ names.1 }}</div>
+<div>
+  {% for name in names %}
+    <span>{{ name }}</span>
+  {% endfor %}
+</div>
+<div>
+  {% for key,value in info.items %}
+    <div>
+      {% if key == 'a' %}
+        {{ key }}
+      {% elif key == 'b' %}
+        {{ value }}
+      {% else %}
+        {{ key }}:{{ value }}
+      {% endif %}
+    </div>
+  {% endfor %}
+
+</div>
+</body>
+</html>
